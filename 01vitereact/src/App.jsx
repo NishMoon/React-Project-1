@@ -1,9 +1,9 @@
+import Coff from './coff'
 
 function App() {
 
   return (
-    <h1>Welcome to React Tutorial - VITE</h1>
+    <Coff/>
   )
 }
-
 export default App
