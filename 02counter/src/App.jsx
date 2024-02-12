@@ -19,14 +19,15 @@ function App() {
   const removeValue = () => {
     if (counter == 0) {
       setCounter(0)
-    } else {setCounter(counter - 1) }
-     
+    } else {setCounter(counter - 1)
+           // setCounter(prevCounter => prevCounter - 1)
+    }      
   }
 
   return (
     <>
       <h1>Welcome to React Tutorial</h1>
-      <h2>Counter Value: {counter}</h2>
+      <h2>Counter Value:{counter}</h2>
       <button
       onClick={addValue}
       >Add Value {counter}</button>
