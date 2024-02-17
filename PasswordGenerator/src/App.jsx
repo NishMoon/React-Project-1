@@ -3,8 +3,7 @@ import { useState, useCallback, useEffect, useRef } from 'react'
 
 function App() {
   const [length, setLength] = useState(8)
-  const [numberAllowed, se
-    tNumberAllowed] = useState(false)
+  const [numberAllowed, setNumberAllowed] = useState(false)
   const [charAllowed, setCharAllowed] = useState(false)
   const [password, setPassword] = useState('password')
 
